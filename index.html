@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link type="text/css" rel="stylesheet" href="./index.css" >
+</head>
+<body background="./image/茶室.jpg" 
+   style="
+   background-attachment: fixed;
+   background-repeat: no-repeat;
+   background-size: 100% 100%;" >
+   <h1 id="head1" >呵，男人。你也配！！！</h1>
+   <h1 id="head2" >让我们沉浸在知识的海洋吧~</h1>
+   <h1 id="head3" >打打工人！打工魂！打工都是人上人！</h1>
+        <img src="./image/未标题-2.png" class="img1" onclick="hanshu2(),hanshu4() " id="img1" >
+        <img src="./image/要你.png" class="img2" id="img2" onclick="fanhui()"  >
+        <img src="./image/R-C.png" class="img2" id="img3" onclick="fanhui()"  >
+        <img src="./image/学习.png" class="img2" id="img4" onclick="fanhui()" >
+    <div class="box" >
+        <p id="demo" ></p>
+    </div>
+    <div class="close" id="close" >
+        <button onclick="hanshu3()"  >×</button>
+    </div>
+    <div class="box1" id="box1"  >
+        <p id="demo1" style="display: none;" >&emsp;&emsp;聪聪宝贝儿~要开始了吗？是要学习，工作还是要我呢~</p>
+        <p id="show" class="show" ></p>
+    </div>
+    <div class="box2" id="choice" >
+        <div style="display: flex;" >
+        <div class="btn" onclick="xuexi()" >学习</div>
+        <div class="btn" onclick="gongzuo()" >工作</div>
+        <div class="btn" onclick="yaoni()" >要你</div>
+        </div>
+    </div>
+    <script src="./index.js" ></script>
+</body>
+</html>
